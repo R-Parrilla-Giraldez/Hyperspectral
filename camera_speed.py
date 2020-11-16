@@ -14,7 +14,7 @@
 #Based on the following formula:
 #FOV = (PP*C*D)/EFL
 
-def hyspeed(FP,EFL,PP,D,C):
+def hy_record_speed(FP,EFL,PP,D,C):
   FPS = (1/FP)*1000
   FOV = ((PP/100)*C*D)/EFL #conversion from micrometers to mm
   IFOV = FOV/C
