@@ -1,4 +1,4 @@
-#Calculate camera or platform movement speed needed for optimal image adquisition.
+#Calculate camera or platform movement speed needed for optimal hyperspectral image adquisition.
 #Calculate FOV (Field of View) and IFOV (Instantaneous Field of View).
 
 #FP = Frame period (ms)
