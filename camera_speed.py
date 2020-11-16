@@ -16,7 +16,7 @@
 
 def hyspeed(FP,EFL,PP,D,C):
   FPS = (1/FP)*1000
-  FOV = ((PP/100)*C*D)/D #conversion from micrometers to mm
+  FOV = ((PP/100)*C*D)/EFL #conversion from micrometers to mm
   IFOV = FOV/C
   Speed = IFOV*FPS
   return FPS,FOV,IFOV,Speed
